@@ -117,6 +117,9 @@ footer .fas{
 .f-nav li{
     padding: 10px;
 }
+.fa-caret-square-up{
+    color:green;
+}
 #button-end a{
     height: 100%;
     padding: 0 10px;
