@@ -58,6 +58,7 @@ main{
     background-color: white;
     margin: 5px;
     position: relative;
+    cursor: pointer;
 }
 .window img{
     width: 100%;
@@ -80,4 +81,48 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+/*-------- footer -------- */
+
+footer{
+    width: 100%;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fas,.far{
+    cursor: pointer;
+}
+.fas > span{
+    font-size: 10px;
+}
+footer .fas{
+    font-size: 20px;
+}
+.f-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.expl{
+    margin-top: 5px;
+    font-size: 13px;
+}
+.f-nav li{
+    padding: 10px;
+}
+#button-end a{
+    height: 100%;
+    padding: 0 10px;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: red;
 }
