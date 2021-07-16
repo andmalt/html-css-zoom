@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+.column{
+    background-color: rgb(49, 47, 47);
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.arrow{
+    width: 50px;
+    color: white;
+}
+.fa-caret-left{
+    font-size: 50px;
+    color: gray;
+}
+.fa-caret-right{
+    font-size: 50px;
+    color: rgb(0, 182, 173);
+}
+#s-column-1{
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#s-column-2{
+    margin-right: 10px;
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+    display: inline-block;
+}
