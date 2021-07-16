@@ -6,6 +6,8 @@
 body{
     background-color: black;
 }
+
+/*------ Header ------*/
 header{
     display: flex;
     justify-content: flex-end;
@@ -15,18 +17,6 @@ header{
     color: white;
     text-align: center;
     margin: 5px;
-}
-.arrow{
-    width: 50px;
-    color: white;
-}
-.fa-caret-left{
-    font-size: 50px;
-    color: gray;
-}
-.fa-caret-right{
-    font-size: 50px;
-    color: rgb(0, 182, 173);
 }
 #s-column-1{
     padding: 5px;
@@ -40,4 +30,49 @@ header{
     width: 50px;
     border-radius: 5px;
     display: inline-block;
+}
+
+/*-------- main container  --------*/
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.arrow{
+    color: white;
+    align-self: center;
+    font-size: 13px;
+    margin: 0 10px;
+}
+.fa-caret-left{
+    font-size: 40px;
+    color: gray;
+}
+.fa-caret-right{
+    font-size: 40px;
+    color: rgb(0, 182, 173);
+    margin-left: 6px;
+}
+.window{
+    width: 230px;
+    height: 140px;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.name{
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+}
+.fa-microphone-alt-slash{
+   padding: 0 8px 0 5px;
+}
+#main-container{
+    margin: 25px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
