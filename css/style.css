@@ -106,6 +106,7 @@ footer .fas{
 }
 .f-nav{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
 }
